@@ -9,7 +9,7 @@ export default ({ navigation }) => {
     const [textNameMeet, onChangeText] = React.useState('')
     return (
         <LinearGradient colors={colors.gradient} style={styles.container}>
-            <Image style={styles.waterMark} source={require('../../img/watermark.png')} />
+            <Image style={styles.waterMark} resizeMode="contain" source={require('../../img/watermark.png')} />
             <Text style={styles.text}>Seguro, lleno de funcionalidades y videoconferencias completamente gratuitas</Text>
             <TextInput
                 style={styles.inputText}
@@ -31,8 +31,6 @@ export default ({ navigation }) => {
                     <Text style={styles.textButton}>IR</Text>
                 </TouchableOpacity>
             }
-
-
         </LinearGradient>
     )
 }
@@ -45,9 +43,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     waterMark: {
-        marginTop: '15%',
         width: '80%',
-        height: '20%',
     },
     text: {
         textAlign: 'center',
