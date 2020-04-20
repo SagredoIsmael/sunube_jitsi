@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { TouchableOpacity, Text, Image, StyleSheet, TextInput } from 'react-native'
+import { TouchableOpacity, Text, Image, StyleSheet, TextInput, KeyboardAvoidingView, Platform } from 'react-native'
 import { screens, colors } from '../utils/constants'
 import LinearGradient from 'react-native-linear-gradient'
 const { MEET } = screens
@@ -8,30 +8,35 @@ const { MEET } = screens
 export default ({ navigation }) => {
     const [textNameMeet, onChangeText] = React.useState('')
     return (
-        <LinearGradient colors={colors.gradient} style={styles.container}>
-            <Image style={styles.waterMark} resizeMode="contain" source={require('../../img/watermark.png')} />
-            <Text style={styles.text}>Seguro, lleno de funcionalidades y videoconferencias completamente gratuitas</Text>
-            <TextInput
-                style={styles.inputText}
-                onChangeText={text => onChangeText(text)}
-                value={textNameMeet}
-                placeholder={"Comenzar una reunión"}
-                placeholderTextColor={'white'}
-            />
-            {
-                textNameMeet != '' &&
-                <TouchableOpacity
-                    style={styles.button}
-                    onPress={() => navigation.navigate(MEET,
-                        {
-                            meetId: textNameMeet
-                        }
-                    )}
-                    underlayColor={colors.secondary}>
-                    <Text style={styles.textButton}>IR</Text>
-                </TouchableOpacity>
-            }
-        </LinearGradient>
+        <KeyboardAvoidingView
+            behavior={Platform.OS == "ios" ? "padding" : "height"}
+            style={styles.container}>
+            <LinearGradient colors={colors.gradient} style={styles.container}>
+                <Image style={styles.waterMark} resizeMode="contain" source={require('../../img/watermark.png')} />
+                <Text style={styles.text}>Seguro, lleno de funcionalidades y videoconferencias completamente gratuitas</Text>
+                <TextInput
+                    style={styles.inputText}
+                    onChangeText={text => onChangeText(text)}
+                    value={textNameMeet}
+                    placeholder={"Comenzar una reunión"}
+                    placeholderTextColor={'white'}
+                />
+                {
+                    textNameMeet != '' &&
+                    <TouchableOpacity
+                        style={styles.button}
+                        onPress={() => navigation.navigate(MEET,
+                            {
+                                meetId: textNameMeet
+                            }
+                        )}
+                        underlayColor={colors.secondary}>
+                        <Text style={styles.textButton}>IR</Text>
+                    </TouchableOpacity>
+                }
+            </LinearGradient>
+        </KeyboardAvoidingView>
+
     )
 }
 
