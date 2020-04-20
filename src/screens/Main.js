@@ -1,15 +1,35 @@
 import * as React from 'react'
-import { Button, View, Text } from 'react-native'
-import { screens } from '../utils/constants'
+import { Button, Text, Image, StyleSheet } from 'react-native'
+import { screens, colors } from '../utils/constants'
+import LinearGradient from 'react-native-linear-gradient'
 
 const { MEET } = screens
 
 
-export default ({navigation}) =>
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+export default ({ navigation }) =>
+    <LinearGradient colors={colors.gradient} style={styles.container}>
+        <Image style={styles.waterMark} source={require('../../img/watermark.png')} />
+
         <Text>Main Screen</Text>
         <Button
-        title="Go to Details"
-        onPress={() => navigation.navigate(MEET)}
-      />
-    </View>
+            title="Go to Details"
+            onPress={() => navigation.navigate(MEET)}
+        />
+    </LinearGradient>
+
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems: 'center',
+    },
+    waterMark: {
+        marginTop: '15%',
+        width: '80%',
+        height: '20%',
+    },
+    logo: {
+        width: 66,
+        height: 58,
+    },
+});

@@ -11,8 +11,8 @@ const Stack = createStackNavigator()
 function App() {
     return (
         <Stack.Navigator initialRouteName={MAIN} screenOptions={headerCommonsOptions}>
-            <Stack.Screen name={MAIN} component={MainScreen} />
-            <Stack.Screen name={MEET} component={MeetScreen} />
+            <Stack.Screen name={MAIN} component={MainScreen} options={{headerShown: false}}/>
+            <Stack.Screen name={MEET} component={MeetScreen} options={{headerShown: false}}/>
         </Stack.Navigator>
     )
 }

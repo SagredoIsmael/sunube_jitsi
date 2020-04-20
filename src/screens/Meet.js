@@ -5,7 +5,7 @@ function Meet({navigation}) {
 
   useEffect(() => {
     setTimeout(() => {
-      const url = 'https://meet.jit.si/exemple122323kj'
+      const url = 'https://vcall.sunube.net/123'
       const userInfo = {
         displayName: 'User',
         email: 'user@example.com',
@@ -21,19 +21,14 @@ function Meet({navigation}) {
   })
 
   function onConferenceTerminated(nativeEvent) {
-    console.log('@@@dkhgkshgfkjdg')
     navigation.goBack()
   }
 
-  function onConferenceJoined(nativeEvent) {
-    /* Conference joined event */
-    console.log('@@',nativeEvent)
-  }
+  function onConferenceJoined(nativeEvent) {}
 
-  function onConferenceWillJoin(nativeEvent) {
-    /* Conference will join event */
-    console.log(nativeEvent)
-  }
+  function onConferenceWillJoin(nativeEvent) {}
+
+
   return (
     <JitsiMeetView
       onConferenceTerminated={e => onConferenceTerminated(e)}
