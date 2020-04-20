@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* sunube_jitsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sunube_jitsiTests.m */; };
+		08FA4DD85736F260BC47C483 /* libPods-sunube_jitsi-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F12A7359E0512C1182BE4B /* libPods-sunube_jitsi-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1A3B177760351D990CD0F4D5 /* libPods-sunube_jitsi-sunube_jitsiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4450A21F257471E3F69C0DA8 /* libPods-sunube_jitsi-sunube_jitsiTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* sunube_jitsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* sunube_jitsiTests.m */; };
-		359CC31FA7F564E6D2C7A572 /* libPods-sunube_jitsi-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4638048D4533268F5CC2431 /* libPods-sunube_jitsi-tvOSTests.a */; };
-		6826C2BC63B4FDF388230D4D /* libPods-sunube_jitsi-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D48CEAAD9B9E317BBE1A7579 /* libPods-sunube_jitsi-tvOS.a */; };
-		6A6328478AD4848AA0CFDAE9 /* libPods-sunube_jitsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2C272034012C52208AC5A94 /* libPods-sunube_jitsi.a */; };
+		78AAF2B79A938698180ACB52 /* libPods-sunube_jitsi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD62ECC7CB650830717E31F /* libPods-sunube_jitsi.a */; };
+		86AD6169FAFE4244710E3D14 /* libPods-sunube_jitsi-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8015ECFF36C3D4A7300291 /* libPods-sunube_jitsi-tvOS.a */; };
+		A486FDF92D02E1E22BD107A2 /* libPods-sunube_jitsi-sunube_jitsiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00195870781EE6515676783A /* libPods-sunube_jitsi-sunube_jitsiTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00195870781EE6515676783A /* libPods-sunube_jitsi-sunube_jitsiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi-sunube_jitsiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* sunube_jitsiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sunube_jitsiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* sunube_jitsiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunube_jitsiTests.m; sourceTree = "<group>"; };
-		0CA660A6666AC61A21A726BD /* Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-sunube_jitsiTests/Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig"; sourceTree = "<group>"; };
+		0A7365FE1E360B57A70A2C9A /* Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-sunube_jitsiTests/Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* sunube_jitsi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sunube_jitsi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = sunube_jitsi/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = sunube_jitsi/AppDelegate.m; sourceTree = "<group>"; };
@@ -52,19 +53,18 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = sunube_jitsi/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = sunube_jitsi/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = sunube_jitsi/main.m; sourceTree = "<group>"; };
-		24A2F420E119EC81C593E7EF /* Pods-sunube_jitsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi.debug.xcconfig"; sourceTree = "<group>"; };
+		21F0F3948D9558B86E4AB411 /* Pods-sunube_jitsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* sunube_jitsi-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sunube_jitsi-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* sunube_jitsi-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sunube_jitsi-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4450A21F257471E3F69C0DA8 /* libPods-sunube_jitsi-sunube_jitsiTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi-sunube_jitsiTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A000E2819AAF6EF8C4833E6 /* Pods-sunube_jitsi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi.release.xcconfig"; sourceTree = "<group>"; };
-		5EBD1EDB6E41E15399D9CC7B /* Pods-sunube_jitsi-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOSTests/Pods-sunube_jitsi-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		7EB4AED30760884067DECE06 /* Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-sunube_jitsiTests/Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8FBD281D2A7CCC2450F2016F /* Pods-sunube_jitsi-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOSTests/Pods-sunube_jitsi-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B2C272034012C52208AC5A94 /* libPods-sunube_jitsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4638048D4533268F5CC2431 /* libPods-sunube_jitsi-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9F2BB4AC6360CE43DFBA7E4 /* Pods-sunube_jitsi-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOS.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOS/Pods-sunube_jitsi-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		D48CEAAD9B9E317BBE1A7579 /* libPods-sunube_jitsi-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC215109F016B2A294699A9E /* Pods-sunube_jitsi-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOS/Pods-sunube_jitsi-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3C149C139E3A4515A40191 /* Pods-sunube_jitsi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi.debug.xcconfig"; sourceTree = "<group>"; };
+		37B473E6C65DF7C56BC7B61F /* Pods-sunube_jitsi-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOSTests/Pods-sunube_jitsi-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		40F9A0CEA67DA02763E076F9 /* Pods-sunube_jitsi-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOSTests/Pods-sunube_jitsi-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		710E4DB59C8663FAACABBD31 /* Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-sunube_jitsiTests/Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EAC44D1EB5D9225BB134481 /* Pods-sunube_jitsi-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOS/Pods-sunube_jitsi-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		90F12A7359E0512C1182BE4B /* libPods-sunube_jitsi-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8015ECFF36C3D4A7300291 /* libPods-sunube_jitsi-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8C118D8399B06DC0E7460D2 /* Pods-sunube_jitsi-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sunube_jitsi-tvOS.release.xcconfig"; path = "Target Support Files/Pods-sunube_jitsi-tvOS/Pods-sunube_jitsi-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DFD62ECC7CB650830717E31F /* libPods-sunube_jitsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sunube_jitsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A3B177760351D990CD0F4D5 /* libPods-sunube_jitsi-sunube_jitsiTests.a in Frameworks */,
+				A486FDF92D02E1E22BD107A2 /* libPods-sunube_jitsi-sunube_jitsiTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A6328478AD4848AA0CFDAE9 /* libPods-sunube_jitsi.a in Frameworks */,
+				78AAF2B79A938698180ACB52 /* libPods-sunube_jitsi.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6826C2BC63B4FDF388230D4D /* libPods-sunube_jitsi-tvOS.a in Frameworks */,
+				86AD6169FAFE4244710E3D14 /* libPods-sunube_jitsi-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				359CC31FA7F564E6D2C7A572 /* libPods-sunube_jitsi-tvOSTests.a in Frameworks */,
+				08FA4DD85736F260BC47C483 /* libPods-sunube_jitsi-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B2C272034012C52208AC5A94 /* libPods-sunube_jitsi.a */,
-				4450A21F257471E3F69C0DA8 /* libPods-sunube_jitsi-sunube_jitsiTests.a */,
-				D48CEAAD9B9E317BBE1A7579 /* libPods-sunube_jitsi-tvOS.a */,
-				B4638048D4533268F5CC2431 /* libPods-sunube_jitsi-tvOSTests.a */,
+				DFD62ECC7CB650830717E31F /* libPods-sunube_jitsi.a */,
+				00195870781EE6515676783A /* libPods-sunube_jitsi-sunube_jitsiTests.a */,
+				9C8015ECFF36C3D4A7300291 /* libPods-sunube_jitsi-tvOS.a */,
+				90F12A7359E0512C1182BE4B /* libPods-sunube_jitsi-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		6F1145BAF7B67F4EF1887E9F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				24A2F420E119EC81C593E7EF /* Pods-sunube_jitsi.debug.xcconfig */,
-				5A000E2819AAF6EF8C4833E6 /* Pods-sunube_jitsi.release.xcconfig */,
-				7EB4AED30760884067DECE06 /* Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig */,
-				0CA660A6666AC61A21A726BD /* Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig */,
-				DC215109F016B2A294699A9E /* Pods-sunube_jitsi-tvOS.debug.xcconfig */,
-				B9F2BB4AC6360CE43DFBA7E4 /* Pods-sunube_jitsi-tvOS.release.xcconfig */,
-				8FBD281D2A7CCC2450F2016F /* Pods-sunube_jitsi-tvOSTests.debug.xcconfig */,
-				5EBD1EDB6E41E15399D9CC7B /* Pods-sunube_jitsi-tvOSTests.release.xcconfig */,
+				2F3C149C139E3A4515A40191 /* Pods-sunube_jitsi.debug.xcconfig */,
+				21F0F3948D9558B86E4AB411 /* Pods-sunube_jitsi.release.xcconfig */,
+				710E4DB59C8663FAACABBD31 /* Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig */,
+				0A7365FE1E360B57A70A2C9A /* Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig */,
+				8EAC44D1EB5D9225BB134481 /* Pods-sunube_jitsi-tvOS.debug.xcconfig */,
+				A8C118D8399B06DC0E7460D2 /* Pods-sunube_jitsi-tvOS.release.xcconfig */,
+				40F9A0CEA67DA02763E076F9 /* Pods-sunube_jitsi-tvOSTests.debug.xcconfig */,
+				37B473E6C65DF7C56BC7B61F /* Pods-sunube_jitsi-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,11 +204,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "sunube_jitsiTests" */;
 			buildPhases = (
-				DF081376D82F3C0EF1517F58 /* [CP] Check Pods Manifest.lock */,
+				3CD09D5C4AFA545174C67F9A /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A302DEB93D96DB923DCEE7B0 /* [CP] Embed Pods Frameworks */,
+				1586D8C8C67A6FF33846AA7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,13 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "sunube_jitsi" */;
 			buildPhases = (
-				5B7F8545A8649A5ED9EA0755 /* [CP] Check Pods Manifest.lock */,
+				0CCDD5BFF590479D7648F79C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				AF8C7335D641DB0569ED0277 /* [CP] Embed Pods Frameworks */,
+				0730A67DE9A30A1EB89D4B89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sunube_jitsi-tvOS" */;
 			buildPhases = (
-				219849435EC00862FEB1E2A9 /* [CP] Check Pods Manifest.lock */,
+				F973A87F6A929FC21757859C /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -265,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "sunube_jitsi-tvOSTests" */;
 			buildPhases = (
-				FE8D2A61AA31B676A0ADC414 /* [CP] Check Pods Manifest.lock */,
+				1583A86878C89BC8A9738540 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -380,43 +380,27 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		219849435EC00862FEB1E2A9 /* [CP] Check Pods Manifest.lock */ = {
+		0730A67DE9A30A1EB89D4B89 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi-frameworks.sh",
+				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/JitsiMeet.framework",
+				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/WebRTC.framework",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sunube_jitsi-tvOS-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JitsiMeet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		5B7F8545A8649A5ED9EA0755 /* [CP] Check Pods Manifest.lock */ = {
+		0CCDD5BFF590479D7648F79C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -438,7 +422,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A302DEB93D96DB923DCEE7B0 /* [CP] Embed Pods Frameworks */ = {
+		1583A86878C89BC8A9738540 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sunube_jitsi-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1586D8C8C67A6FF33846AA7C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -458,27 +464,21 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sunube_jitsi-sunube_jitsiTests/Pods-sunube_jitsi-sunube_jitsiTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		AF8C7335D641DB0569ED0277 /* [CP] Embed Pods Frameworks */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi-frameworks.sh",
-				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/JitsiMeet.framework",
-				"${PODS_ROOT}/JitsiMeetSDK/Frameworks/WebRTC.framework",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "Bundle React Native Code And Images";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JitsiMeet.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sunube_jitsi/Pods-sunube_jitsi-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		DF081376D82F3C0EF1517F58 /* [CP] Check Pods Manifest.lock */ = {
+		3CD09D5C4AFA545174C67F9A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -494,6 +494,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-sunube_jitsi-sunube_jitsiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F973A87F6A929FC21757859C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sunube_jitsi-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -536,28 +558,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FE8D2A61AA31B676A0ADC414 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sunube_jitsi-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -627,7 +627,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EB4AED30760884067DECE06 /* Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig */;
+			baseConfigurationReference = 710E4DB59C8663FAACABBD31 /* Pods-sunube_jitsi-sunube_jitsiTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4HB9BM9NAA;
@@ -651,7 +651,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CA660A6666AC61A21A726BD /* Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig */;
+			baseConfigurationReference = 0A7365FE1E360B57A70A2C9A /* Pods-sunube_jitsi-sunube_jitsiTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -672,7 +672,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24A2F420E119EC81C593E7EF /* Pods-sunube_jitsi.debug.xcconfig */;
+			baseConfigurationReference = 2F3C149C139E3A4515A40191 /* Pods-sunube_jitsi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -700,7 +700,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A000E2819AAF6EF8C4833E6 /* Pods-sunube_jitsi.release.xcconfig */;
+			baseConfigurationReference = 21F0F3948D9558B86E4AB411 /* Pods-sunube_jitsi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -722,7 +722,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC215109F016B2A294699A9E /* Pods-sunube_jitsi-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 8EAC44D1EB5D9225BB134481 /* Pods-sunube_jitsi-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -751,7 +751,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9F2BB4AC6360CE43DFBA7E4 /* Pods-sunube_jitsi-tvOS.release.xcconfig */;
+			baseConfigurationReference = A8C118D8399B06DC0E7460D2 /* Pods-sunube_jitsi-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -780,7 +780,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8FBD281D2A7CCC2450F2016F /* Pods-sunube_jitsi-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 40F9A0CEA67DA02763E076F9 /* Pods-sunube_jitsi-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -808,7 +808,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EBD1EDB6E41E15399D9CC7B /* Pods-sunube_jitsi-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 37B473E6C65DF7C56BC7B61F /* Pods-sunube_jitsi-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import JitsiMeet, { JitsiMeetView } from 'react-native-jitsi-meet';
 
-function JitsiMeet() {
+function Meet() {
 
   useEffect(() => {
     setTimeout(() => {
@@ -50,4 +50,4 @@ function JitsiMeet() {
     />
   )
 }
-export default JitsiMeet;
+export default Meet
