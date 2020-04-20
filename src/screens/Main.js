@@ -43,9 +43,9 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center'
     },
     waterMark: {
+        marginTop: '15%',
         width: '80%',
         height: '20%',
     },
@@ -66,6 +66,7 @@ const styles = StyleSheet.create({
     },
     inputText: {
         width: '75%',
+        height: '7%',
         marginBottom: '10%',
         borderColor: 'white',
         borderWidth: 2,
