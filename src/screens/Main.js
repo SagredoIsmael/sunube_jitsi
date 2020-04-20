@@ -18,12 +18,16 @@ export default ({ navigation }) => {
                 placeholder={"Comenzar una reunión"}
                 placeholderTextColor={'white'}
             />
-            <TouchableOpacity
-                style={styles.button}
-                onPress={() => navigation.navigate(MEET)} underlayColor={colors.secondary}>
-                <Text style={styles.textButton}>IR</Text>
-            </TouchableOpacity>
-           
+            {
+                textNameMeet != '' &&
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => navigation.navigate(MEET)} underlayColor={colors.secondary}>
+                    <Text style={styles.textButton}>IR</Text>
+                </TouchableOpacity>
+            }
+
+
         </LinearGradient>
     )
 }
@@ -33,16 +37,17 @@ export default ({ navigation }) => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center'
     },
     waterMark: {
-        marginTop: '20%',
         width: '80%',
         height: '20%',
     },
     text: {
         textAlign: 'center',
         margin: '10%',
+        marginBottom: '15%',
         color: 'white',
         fontWeight: "bold",
         fontSize: 17
