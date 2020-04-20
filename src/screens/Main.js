@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { TouchableOpacity, Text, Image, StyleSheet, TextInput, KeyboardAvoidingView, Platform } from 'react-native'
+import { TouchableOpacity, Text, Image, StyleSheet, TextInput } from 'react-native'
 import { screens, colors } from '../utils/constants'
 import LinearGradient from 'react-native-linear-gradient'
 const { MEET } = screens
@@ -8,10 +8,7 @@ const { MEET } = screens
 export default ({ navigation }) => {
     const [textNameMeet, onChangeText] = React.useState('')
     return (
-        <KeyboardAvoidingView
-            behavior={Platform.OS == "ios" ? "padding" : "height"}
-            style={styles.container}>
-            <LinearGradient colors={colors.gradient} style={styles.container}>
+        <LinearGradient colors={colors.gradient} style={styles.container}>
                 <Image style={styles.waterMark} resizeMode="contain" source={require('../../img/watermark.png')} />
                 <Text style={styles.text}>Seguro, lleno de funcionalidades y videoconferencias completamente gratuitas</Text>
                 <TextInput
@@ -35,7 +32,6 @@ export default ({ navigation }) => {
                     </TouchableOpacity>
                 }
             </LinearGradient>
-        </KeyboardAvoidingView>
 
     )
 }
@@ -79,6 +75,7 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         borderRadius: 10,
         borderWidth: 1,
-        borderColor: '#fff'
+        borderColor: '#fff',
+        marginBottom:'40%'
     }
 });
