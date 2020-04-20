@@ -1,3 +1,9 @@
+export const screens = {
+    MAIN: 'MAIN',
+    MEET: 'MEET'
+}
+
+
 export const colors = {
     background: 'rgba(10, 100, 218, 1.0)',
     primary:'rgba(103, 203, 224, 1.0)',
