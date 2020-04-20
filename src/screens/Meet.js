@@ -1,36 +1,33 @@
-import React, { useEffect } from 'react';
-import JitsiMeet, { JitsiMeetView } from 'react-native-jitsi-meet';
+import React, { useEffect } from 'react'
+import JitsiMeet, { JitsiMeetView } from 'react-native-jitsi-meet'
 
-function Meet() {
+function Meet({navigation}) {
 
   useEffect(() => {
     setTimeout(() => {
-      const url = 'https://meet.jit.si/exemple';
+      const url = 'https://meet.jit.si/exemple122323kj'
       const userInfo = {
         displayName: 'User',
         email: 'user@example.com',
         avatar: 'https:/gravatar.com/avatar/abc123',
       };
-      JitsiMeet.call(url, userInfo);
-      /* Você também pode usar o JitsiMeet.audioCall (url) para chamadas apenas de áudio */
-      /* Você pode terminar programaticamente a chamada com JitsiMeet.endCall () */
-    }, 1000);
+      JitsiMeet.call(url, userInfo)
+      /* JitsiMeet.audioCall for only audio call */
+    }, 1000)
   }, [])
 
   useEffect(() => {
-    return () => {
-      JitsiMeet.endCall();
-    };
-  });
+    return () => JitsiMeet.endCall()
+  })
 
   function onConferenceTerminated(nativeEvent) {
-    /* Conference terminated event */
-    console.log(nativeEvent)
+    console.log('@@@dkhgkshgfkjdg')
+    navigation.goBack()
   }
 
   function onConferenceJoined(nativeEvent) {
     /* Conference joined event */
-    console.log(nativeEvent)
+    console.log('@@',nativeEvent)
   }
 
   function onConferenceWillJoin(nativeEvent) {
