@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     waterMark: {
-        marginTop: '15%',
+        marginTop: '25%',
         width: '80%',
         height: '20%',
     },
