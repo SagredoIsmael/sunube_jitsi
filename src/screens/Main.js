@@ -22,7 +22,12 @@ export default ({ navigation }) => {
                 textNameMeet != '' &&
                 <TouchableOpacity
                     style={styles.button}
-                    onPress={() => navigation.navigate(MEET)} underlayColor={colors.secondary}>
+                    onPress={() => navigation.navigate(MEET,
+                        {
+                            meetId: textNameMeet
+                        }
+                    )}
+                    underlayColor={colors.secondary}>
                     <Text style={styles.textButton}>IR</Text>
                 </TouchableOpacity>
             }

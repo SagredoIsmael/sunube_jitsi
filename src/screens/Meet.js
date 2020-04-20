@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react'
 import JitsiMeet, { JitsiMeetView } from 'react-native-jitsi-meet'
 
-function Meet({navigation}) {
-
+function Meet({route, navigation}) {
+  const { meetId } = route.params
+  
   useEffect(() => {
     setTimeout(() => {
-      const url = 'https://vcall.sunube.net/123'
+      const url = 'https://vcall.sunube.net/' + meetId
       const userInfo = {
         displayName: 'User',
         email: 'user@example.com',
