@@ -1,38 +1,35 @@
 import * as React from 'react'
-import { TouchableOpacity, Text, Image, StyleSheet, TextInput } from 'react-native'
+import { TouchableOpacity, Text, Image, StyleSheet, TextInput, View } from 'react-native'
 import { screens, colors } from '../utils/constants'
-import LinearGradient from 'react-native-linear-gradient'
 const { MEET } = screens
-
 
 export default ({ navigation }) => {
     const [textNameMeet, onChangeText] = React.useState('')
     return (
-        <LinearGradient colors={colors.gradient} style={styles.container}>
-                <Image style={styles.waterMark} resizeMode="contain" source={require('../../img/watermark.png')} />
-                <Text style={styles.text}>Seguro, lleno de funcionalidades y videoconferencias completamente gratuitas</Text>
-                <TextInput
-                    style={styles.inputText}
-                    onChangeText={text => onChangeText(text)}
-                    value={textNameMeet}
-                    placeholder={"Comenzar una reunión"}
-                    placeholderTextColor={'white'}
-                />
-                {
-                    textNameMeet != '' &&
-                    <TouchableOpacity
-                        style={styles.button}
-                        onPress={() => navigation.navigate(MEET,
-                            {
-                                meetId: textNameMeet
-                            }
-                        )}
-                        underlayColor={colors.secondary}>
-                        <Text style={styles.textButton}>IR</Text>
-                    </TouchableOpacity>
-                }
-            </LinearGradient>
-
+        <View style={styles.container}>
+            <Image style={styles.waterMark} resizeMode="contain" source={require('../../img/watermark.png')} />
+            <Text style={styles.text}>Seguro, lleno de funcionalidades y videoconferencias completamente gratuitas</Text>
+            <TextInput
+                style={styles.inputText}
+                onChangeText={text => onChangeText(text)}
+                value={textNameMeet}
+                placeholder={"Comenzar una reunión"}
+                placeholderTextColor={'white'}
+            />
+            {
+                textNameMeet != '' &&
+                <TouchableOpacity
+                    style={styles.button}
+                    onPress={() => navigation.navigate(MEET,
+                        {
+                            meetId: textNameMeet
+                        }
+                    )}
+                    underlayColor={colors.secondary}>
+                    <Text style={styles.textButton}>IR</Text>
+                </TouchableOpacity>
+            }
+        </View>
     )
 }
 
@@ -40,6 +37,7 @@ export default ({ navigation }) => {
 
 const styles = StyleSheet.create({
     container: {
+        backgroundColor: colors.primary,
         flex: 1,
         alignItems: 'center',
     },
@@ -76,6 +74,6 @@ const styles = StyleSheet.create({
         borderRadius: 10,
         borderWidth: 1,
         borderColor: '#fff',
-        marginBottom:'40%'
+        marginBottom: '40%'
     }
 });
