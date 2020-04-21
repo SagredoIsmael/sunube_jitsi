@@ -38,11 +38,13 @@
 		</dict>
 	</dict>
 	<key>NSCameraUsageDescription</key>
-	<string>Camera Permission</string>
+	<string>$(PRODUCT_NAME) need to use your camera for video in the meeting.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>$(PRODUCT_NAME) need to use your location for the locate the user in the meeting.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Microphone Permission</string>
+	<string>$(PRODUCT_NAME) need to use your microphone for audio in the meeting.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>$(PRODUCT_NAME) need to use your calendar for show the days.</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>AntDesign.ttf</string>
